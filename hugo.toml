@@ -1,4 +1,4 @@
-baseURL = 'https://kilimo.app/'
+baseURL = 'https://agri-tech-solutions.github.io/kilimo-website/'
 languageCode = 'en-us'
 title = 'Kilimo'
 disableKinds = ['taxonomy', 'term']
