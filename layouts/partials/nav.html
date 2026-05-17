@@ -1,16 +1,16 @@
 <header class="site-header">
   <nav class="nav container">
-    <a href="/" class="nav-brand">
-      <img src="/kilimo-logo.png" alt="Kilimo" class="nav-logo">
+    <a href="{{ "/" | relURL }}" class="nav-brand">
+      <img src="{{ "/kilimo-logo.png" | relURL }}" alt="Kilimo" class="nav-logo">
       <span class="nav-name">Kilimo</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links">
-      <li><a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
-      <li><a href="/privacy/" {{ if eq .RelPermalink "/privacy/" }}class="active"{{ end }}>Privacy Policy</a></li>
-      <li><a href="/contact/" {{ if eq .RelPermalink "/contact/" }}class="active"{{ end }}>Contact</a></li>
+      <li><a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
+      <li><a href="{{ "/privacy/" | relURL }}" {{ if eq .RelPermalink "/privacy/" }}class="active"{{ end }}>Privacy Policy</a></li>
+      <li><a href="{{ "/contact/" | relURL }}" {{ if eq .RelPermalink "/contact/" }}class="active"{{ end }}>Contact</a></li>
       <li><a href="https://play.google.com/store/apps/details?id=com.agritech.kilimo" target="_blank" rel="noopener" class="nav-cta">Download</a></li>
     </ul>
   </nav>
