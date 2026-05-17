@@ -1,0 +1,8 @@
+baseURL = 'https://kilimo.app/'
+languageCode = 'en-us'
+title = 'Kilimo'
+disableKinds = ['taxonomy', 'term']
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+{{ if eq .File.ContentBaseName "privacy" }}
+<section class="prose-section">
+  <div class="container">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ else if eq .File.ContentBaseName "contact" }}
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ else }}
+<section class="section">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
