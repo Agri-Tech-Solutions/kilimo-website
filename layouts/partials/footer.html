@@ -2,21 +2,21 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="{{ "/kilimo-logo.png" | relURL }}" alt="Kilimo" class="footer-logo">
+        <img src="{{ "kilimo-logo.png" | absURL }}" alt="Kilimo" class="footer-logo">
         <p>Farm management made simple for smallholder farmers across Africa.</p>
       </div>
       <div class="footer-links">
         <h4>Product</h4>
         <ul>
-          <li><a href="{{ "/" | relURL }}">Home</a></li>
+          <li><a href="{{ "/" | absURL }}">Home</a></li>
           <li><a href="https://play.google.com/store/apps/details?id=com.agritech.kilimo" target="_blank" rel="noopener">Download for Android</a></li>
         </ul>
       </div>
       <div class="footer-links">
         <h4>Company</h4>
         <ul>
-          <li><a href="{{ "/privacy/" | relURL }}">Privacy Policy</a></li>
-          <li><a href="{{ "/contact/" | relURL }}">Contact Us</a></li>
+          <li><a href="{{ "privacy/" | absURL }}">Privacy Policy</a></li>
+          <li><a href="{{ "contact/" | absURL }}">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -25,4 +25,4 @@
     </div>
   </div>
 </footer>
-<script src="{{ "/js/main.js" | relURL }}"></script>
+<script src="{{ "js/main.js" | absURL }}"></script>
