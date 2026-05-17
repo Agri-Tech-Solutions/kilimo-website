@@ -9,7 +9,7 @@ type: "page"
 
 ## Introduction
 
-Kilimo ("we", "us", "our") is a farm management application developed by Agri-Tech. This Privacy and Data Policy explains how we collect, use, disclose, and safeguard your information when you use the Kilimo mobile application and related services.
+Kilimo ("we", "us", "our") is a farm management application developed by Jade Agro Solutions. This Privacy and Data Policy explains how we collect, use, disclose, and safeguard your information when you use the Kilimo mobile application and related services.
 
 Please read this policy carefully. If you do not agree with the terms of this policy, please do not access the application.
 
